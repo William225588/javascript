@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #b6a996;
+    background: url('hobart.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+    text-size-adjust: 50%;
+}
+.paragraph{
+    background-color: aliceblue;
+    
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  form {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  form{
+    width: 100%;
+  }
+}
